@@ -5,7 +5,7 @@ import  morgan from 'morgan'
 import productoRuta from '../rutas/producto.js'
 import carritoRuta from '../rutas/carrito.js'
 import loginRuta from '../rutas/apiRoutersLogin.js'
-import apiRuta from '../rutas/index.js'
+import apiRuta from '../rutas/index.cjs'
 import infoRuta from '../rutas/info.js'
 
 import session from 'express-session';
